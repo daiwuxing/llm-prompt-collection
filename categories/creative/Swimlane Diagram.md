@@ -1,3 +1,13 @@
+# SVG Swimlane Diagram Generator
+
+## Metadata
+- **Created**: 2024-02-26
+- **Model**: GPT-4, Claude
+- **Category**: Creative
+- **Tags**: Diagram, SVG, Visualization, Design, Flowchart
+
+## Prompt
+```
 请创建一个SVG格式的泳道图(Swimlane Diagram)，需要满足以下规范：
 
 1. 基础布局规范：
@@ -93,4 +103,30 @@ c) 性能优化：
 - 复用共同的样式
 - 适当使用组合（g元素）
 - 避免不必要的复杂路径
-请根据以上规范生成SVG代码，注意整体的美观性、专业性和清晰度。具体的样式（如颜色、尺寸、字体等）可以根据实际需求灵活调整，但要遵循上述核心原则。  请按照我的要求画一个{} 
+
+请根据以上规范生成SVG代码，注意整体的美观性、专业性和清晰度。具体的样式（如颜色、尺寸、字体等）可以根据实际需求灵活调整，但要遵循上述核心原则。
+
+请按照我的要求画一个{DIAGRAM_DESCRIPTION}
+```
+
+## Purpose
+This prompt guides AI models to generate SVG code for professional swimlane diagrams that visualize processes and workflows across different departments, roles, or systems. It provides comprehensive specifications to ensure the resulting diagram is clear, visually appealing, and follows best practices in diagram design.
+
+## Example Usage
+```
+请创建一个SVG格式的泳道图(Swimlane Diagram)，需要满足以下规范：
+[... entire prompt above ...]
+请按照我的要求画一个电子商务订单处理流程，包含客户、订单系统、支付系统、仓库四个泳道
+```
+
+## Sample Response
+The AI will respond with SVG code that creates a swimlane diagram following all the specified requirements, including proper layout, connection points, visual hierarchy, and best practices for code organization.
+
+## Notes
+- Replace `{DIAGRAM_DESCRIPTION}` with your specific diagram needs
+- For complex diagrams, consider providing additional details about:
+  - The specific entities/swimlanes required
+  - Key process steps in each lane
+  - Important decision points
+  - Critical connections between lanes
+- The prompt is in Chinese but can be translated to other languages as needed 
