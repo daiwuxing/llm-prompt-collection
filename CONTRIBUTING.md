@@ -34,4 +34,4 @@ All prompts should:
 
 ## License
 
-By contributing to this repository, you agree that your contributions will be licensed under the same license as the repository.
+By contributing to this repository, you agree that your contributions will be licensed under the MIT License, the same license that covers the project. See the [LICENSE](LICENSE) file for full details.
