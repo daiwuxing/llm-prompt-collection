@@ -85,4 +85,4 @@ This is a personal repository, but if you're collaborating with me:
 
 ## License
 
-This repository is for personal use. All rights reserved.
+This repository is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute these prompts as you see fit, while providing attribution to the original source.
