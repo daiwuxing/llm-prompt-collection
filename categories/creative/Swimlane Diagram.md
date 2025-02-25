@@ -2,7 +2,7 @@
 
 ## Metadata
 - **Created**: 2024-02-26
-- **Model**: GPT-4, Claude
+- **Model**: Claude3.7Sonnet
 - **Category**: Creative
 - **Tags**: Diagram, SVG, Visualization, Design, Flowchart
 
